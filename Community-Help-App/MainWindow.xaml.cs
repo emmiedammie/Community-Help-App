@@ -23,6 +23,8 @@ namespace Community_Help_App
         public MainWindow()
         {
             InitializeComponent();
+
+
         }
     }
 }

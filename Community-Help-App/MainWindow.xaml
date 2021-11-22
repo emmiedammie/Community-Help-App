@@ -7,6 +7,6 @@
         mc:Ignorable="d"
         Title="Place Order" Height="450" Width="800">
     <Grid>
-        
+        <ListView Margin="10" Name="PlaceOrder"></ListView> 
     </Grid>
 </Window>
