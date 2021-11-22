@@ -24,7 +24,17 @@ namespace Community_Help_App
         {
             InitializeComponent();
 
+            Order order001 = new Order()
+            {
+                GroceriesItems = "Continence pad, jam, toast and chicken",
+                StoreName = "Tesco",
+                MedicalList = "Asprin",
+                DeliveryDate = "12/02/2021",
+                TotalOrderAmount = "£200"
 
+
+
+            };
         }
     }
 }
