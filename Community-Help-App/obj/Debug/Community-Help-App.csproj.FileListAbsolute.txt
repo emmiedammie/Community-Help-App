@@ -2,14 +2,14 @@ C:\Users\user\source\repos\Community-Help-App\Community-Help-App\bin\Debug\Commu
 C:\Users\user\source\repos\Community-Help-App\Community-Help-App\bin\Debug\Community-Help-App.exe
 C:\Users\user\source\repos\Community-Help-App\Community-Help-App\bin\Debug\Community-Help-App.pdb
 C:\Users\user\source\repos\Community-Help-App\Community-Help-App\obj\Debug\Community-Help-App.csprojAssemblyReference.cache
-C:\Users\user\source\repos\Community-Help-App\Community-Help-App\obj\Debug\MainWindow.g.cs
 C:\Users\user\source\repos\Community-Help-App\Community-Help-App\obj\Debug\App.g.cs
 C:\Users\user\source\repos\Community-Help-App\Community-Help-App\obj\Debug\Community-Help-App_MarkupCompile.cache
 C:\Users\user\source\repos\Community-Help-App\Community-Help-App\obj\Debug\Community-Help-App_MarkupCompile.lref
-C:\Users\user\source\repos\Community-Help-App\Community-Help-App\obj\Debug\MainWindow.baml
 C:\Users\user\source\repos\Community-Help-App\Community-Help-App\obj\Debug\Community-Help-App.g.resources
 C:\Users\user\source\repos\Community-Help-App\Community-Help-App\obj\Debug\Community_Help_App.Properties.Resources.resources
 C:\Users\user\source\repos\Community-Help-App\Community-Help-App\obj\Debug\Community-Help-App.csproj.GenerateResource.cache
 C:\Users\user\source\repos\Community-Help-App\Community-Help-App\obj\Debug\Community-Help-App.csproj.CoreCompileInputs.cache
 C:\Users\user\source\repos\Community-Help-App\Community-Help-App\obj\Debug\Community-Help-App.exe
 C:\Users\user\source\repos\Community-Help-App\Community-Help-App\obj\Debug\Community-Help-App.pdb
+C:\Users\user\source\repos\Community-Help-App\Community-Help-App\obj\Debug\mainwindow.g.cs
+C:\Users\user\source\repos\Community-Help-App\Community-Help-App\obj\Debug\mainwindow.baml

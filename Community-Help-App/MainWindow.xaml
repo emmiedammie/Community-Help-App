@@ -94,7 +94,7 @@
 
                                 <Setter Property="Background"
                                         TargetName="button"
-                                        Value="{StaticResource CloseBtn_MouseOver}"/>
+                                        Value="{StaticResource closeBtn_MouseOver}"/>
 
                             </Trigger>
                             
@@ -206,7 +206,7 @@
                         Height="40"
                         Width="40"
                         BorderThickness="0"
-                        Style="{StaticResource Close_Btn}">
+                        Style="{StaticResource Close_btn}" Click="CloseBtn_Click">
                 
                     <Button.Background>
 

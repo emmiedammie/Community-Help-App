@@ -71,7 +71,7 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Volunteer.cs" />
-    <Page Include="Homepage.xaml">
+    <Page Include="mainwindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -81,8 +81,8 @@
     </Compile>
     <Compile Include="Customer.cs" />
     <Compile Include="Delivery.cs" />
-    <Compile Include="Homepage.xaml.cs">
-      <DependentUpon>Homepage.xaml</DependentUpon>
+    <Compile Include="mainwindow.xaml.cs">
+      <DependentUpon>mainwindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

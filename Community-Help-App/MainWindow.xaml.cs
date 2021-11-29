@@ -79,6 +79,9 @@ namespace Community_Help_App
             Toggle_btn.IsChecked = false;
         }
 
-       
+        private void CloseBtn_Click(object sender, RoutedEventArgs e)
+        {
+            Close();
+        }
     }
 }
