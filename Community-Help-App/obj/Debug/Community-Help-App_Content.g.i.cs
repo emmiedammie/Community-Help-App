@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/icons8-hamburger-50.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("font/license.txt")]
 
 
