@@ -71,7 +71,7 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Volunteer.cs" />
-    <Page Include="MainWindow.xaml">
+    <Page Include="Homepage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -81,8 +81,8 @@
     </Compile>
     <Compile Include="Customer.cs" />
     <Compile Include="Delivery.cs" />
-    <Compile Include="MainWindow.xaml.cs">
-      <DependentUpon>MainWindow.xaml</DependentUpon>
+    <Compile Include="Homepage.xaml.cs">
+      <DependentUpon>Homepage.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -124,6 +124,17 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\contact.png" />
+    <Resource Include="Images\home.png" />
+    <Resource Include="Images\map.png" />
+    <Resource Include="Images\message.png" />
+    <Resource Include="Images\setting.png" />
+    <Resource Include="Images\signout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Toggle_button.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
