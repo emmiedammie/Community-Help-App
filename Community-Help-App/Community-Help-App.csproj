@@ -140,9 +140,17 @@
   <ItemGroup>
     <Resource Include="Images\tb_mouse_over.png" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <Resource Include="Font\LICENSE.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\img_background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\closeBtn_default.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\closeBtn_MouseOver.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

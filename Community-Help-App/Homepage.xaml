@@ -65,9 +65,51 @@
             <Setter Property="HorizontalContentAlignment" Value="Center"/>
 
 
-
         </Style>
         
+        <!--App close button style-->
+
+        <ImageBrush x:Key="closeBtn_MouseOver" ImageSource="Images/closeBtn_MouseOver.png"/>
+
+        <Style x:Key="Close_btn" TargetType="{x:Type Button}">
+
+            <Setter Property="Template">
+
+                <Setter.Value>
+
+                    <ControlTemplate TargetType="{x:Type Button}">
+
+                        <Border x:Name="button"
+                                BorderThickness="0"
+                                Background="{TemplateBinding Background}"
+                                SnapsToDevicePixels="True">
+                            
+                        </Border>
+
+                        <ControlTemplate.Triggers>
+
+                            <Trigger Property="IsMouseOver"
+                                     Value="True">
+
+
+                                <Setter Property="Background"
+                                        TargetName="button"
+                                        Value="{StaticResource CloseBtn_MouseOver}"/>
+
+                            </Trigger>
+                            
+                        </ControlTemplate.Triggers>
+                        
+                    </ControlTemplate>
+                    
+                </Setter.Value>
+                
+                
+                
+            </Setter>
+            
+        </Style>
+
 
         <Style x:Key="tb_style" TargetType="{x:Type ToggleButton}">
 
@@ -126,7 +168,57 @@
     <Grid>
          <!-- Background colour-->
         <Grid Background="White">
+            
+            <!--Background Image-->
 
+            <Grid x:Name="bg" PreviewMouseLeftButtonDown="bg_PreviewMouseLeftButtonDown">
+
+                <Grid.Background>
+
+                    <ImageBrush x:Name="img_bg"
+                                ImageSource="Images\img_background.png"
+                                Stretch="Fill"/>
+
+                </Grid.Background>
+                
+            </Grid>
+            
+            <!-- App close button -->
+            <Grid>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="60"/>
+                    <ColumnDefinition Width="30"/>
+                    
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="60"/>
+                    <RowDefinition Height="*"/>
+
+                </Grid.RowDefinitions>
+
+                <Button x:Name="CloseBtn"
+                        Grid.Column="1"
+                        Grid.Row="1"
+                        Height="40"
+                        Width="40"
+                        BorderThickness="0"
+                        Style="{StaticResource Close_Btn}">
+                
+                    <Button.Background>
+
+                        <ImageBrush ImageSource="Images/closeBtn_default.png"/>
+
+                    </Button.Background>
+                    
+                    
+                </Button>
+                        
+                
+            </Grid>
             <!-- Navigation Panel-->
             <Grid x:Name="nav_panel"
                   HorizontalAlignment="Left"
@@ -175,7 +267,7 @@
                                       Height="30"
                                       Width="30"
                                       BorderThickness="0"
-                                      Style="{StaticResource tb_style}">
+                                      Style="{StaticResource tb_style}" Unchecked="Toggle_tn_Unchecked" Checked="Toggle_button_Checked">
                             
                             <!--Toggle button default background image-->
 
@@ -251,7 +343,7 @@
                     </Grid>
                     
                     <!--List view with menu list items-->
-                    <ListView x:Name="LV"
+                    <ListView
                               Background="Transparent"
                               BorderBrush="Transparent"
                               ScrollViewer.HorizontalScrollBarVisibility="Disabled">
@@ -259,7 +351,7 @@
                         <!--Home-->
 
                         <ListViewItem HorizontalAlignment="Left"
-                                      Margin="0,0,0,15">
+                                      Margin="0,0,0,15" MouseEnter="ListViewItem_MouseEnter">
 
 
                             <StackPanel Orientation="Horizontal"
@@ -292,7 +384,7 @@
                                       
                         <!--Contacts-->
                         <ListViewItem HorizontalAlignment="Left"
-                                      Margin="0,0,0,15">
+                                      Margin="0,0,0,15" MouseEnter="ListViewItem_MouseEnter">
 
 
                             <StackPanel Orientation="Horizontal"
@@ -326,7 +418,7 @@
                         <!--Message-->
 
                         <ListViewItem HorizontalAlignment="Left"
-                                      Margin="0,0,0,15">
+                                      Margin="0,0,0,15" MouseEnter="ListViewItem_MouseEnter">
 
 
                             <StackPanel Orientation="Horizontal"
@@ -359,7 +451,7 @@
                         
                         <!--Maps-->
                         <ListViewItem HorizontalAlignment="Left"
-                                      Margin="0,0,0,15">
+                                      Margin="0,0,0,15" MouseEnter="ListViewItem_MouseEnter">
 
 
                             <StackPanel Orientation="Horizontal"
@@ -391,7 +483,7 @@
                         </ListViewItem>
                             <!--Settings-->
                         <ListViewItem HorizontalAlignment="Left"
-                                      Margin="0,0,0,15">
+                                      Margin="0,0,0,15" MouseEnter="ListViewItem_MouseEnter">
 
 
                             <StackPanel Orientation="Horizontal"
@@ -423,7 +515,7 @@
                         </ListViewItem>
                         <!--Sign out-->
                         <ListViewItem HorizontalAlignment="Left"
-                                      Margin="0,0,0,15">
+                                      Margin="0,0,0,15" MouseEnter="ListViewItem_MouseEnter" >
 
 
                             <StackPanel Orientation="Horizontal"
@@ -488,9 +580,18 @@
                                                         <Condition Property="IsMouseOver" Value="True"/>
 
                                                     </MultiTrigger.Conditions>
+
+                                                    <Setter Property="Background"
+                                                            TargetName="Bd"
+                                                            Value="#404D5B"/>
+
+                                                    <Setter Property="BorderBrush"
+                                                            TargetName="Bd"
+                                                            Value="#404D5B"/>
                                                     
                                                     
-                                                    
+
+
                                                 </MultiTrigger>
                                                 
                                                 

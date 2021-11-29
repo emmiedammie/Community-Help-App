@@ -36,5 +36,49 @@ namespace Community_Help_App
 
             };
         }
+
+        private void ListViewItem_MouseEnter(object sender, MouseEventArgs e)
+        {
+            //Set tooltip visibility
+
+            if(Toggle_btn.IsChecked == true)
+
+            {
+                tt_home.Visibility = Visibility.Collapsed;
+                tt_contact.Visibility = Visibility.Collapsed;
+                tt_message.Visibility = Visibility.Collapsed;
+                tt_map.Visibility = Visibility.Collapsed;
+                tt_setting.Visibility = Visibility.Collapsed;
+                tt_signout.Visibility = Visibility.Collapsed;
+
+
+            }
+            else
+            {
+                tt_home.Visibility = Visibility.Visible;
+                tt_contact.Visibility = Visibility.Visible;
+                tt_message.Visibility = Visibility.Visible;
+                tt_map.Visibility = Visibility.Visible;
+                tt_setting.Visibility = Visibility.Visible;
+                tt_signout.Visibility = Visibility.Visible;
+            }
+        }
+
+        private void Toggle_tn_Unchecked(object sender, RoutedEventArgs e)
+        {
+            img_bg.Opacity = 1;
+        }
+
+        private void Toggle_button_Checked(object sender, RoutedEventArgs e)
+        {
+            img_bg.Opacity = 0.3;
+        }
+
+        private void bg_PreviewMouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            Toggle_btn.IsChecked = false;
+        }
+
+       
     }
 }
