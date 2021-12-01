@@ -18,9 +18,9 @@ namespace Community_Help_App
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Register : Window
     {
-        public MainWindow()
+        public Register()
         {
             InitializeComponent();
 
@@ -89,40 +89,8 @@ namespace Community_Help_App
 
         }
 
-
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void ComboBoxItem_Selected(object sender, RoutedEventArgs e)
         {
-            string User = textBox1.Text;
-            string pass = textBox2.Text;
-
-            if (User == "admin" && pass == "admin")
-            {
-                mainhomepage.Visibility = Visibility.Visible;
-            }
-            else if (User == "manager" && pass == "manager")
-            {
-                mainhomepage.Visibility = Visibility.Visible;
-            }
-            else if (User == "volunteer" && pass == "volunteer")
-            {
-                mainhomepage.Visibility = Visibility.Visible;
-            }
-            else if (User == "client" && pass == "client")
-            {
-                mainhomepage.Visibility = Visibility.Visible;
-            }
-            else if (User == "" && pass == "")
-            {
-                label3.Content = "Username or Password cannot be Empty";
-
-            }
-            else
-            {
-                label3.Content = "Incorrect Username or Password";
-            }
-
-            textBox1.Text = "";
-            textBox2.Text = "";
 
         }
     }

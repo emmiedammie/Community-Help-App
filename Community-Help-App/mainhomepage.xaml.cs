@@ -16,14 +16,15 @@ using System.Windows.Shapes;
 namespace Community_Help_App
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for mainhomepage.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class mainhomepage : UserControl
     {
-        public MainWindow()
+        public bool Visible { get; internal set; }
+
+        public mainhomepage()
         {
             InitializeComponent();
-
             Order order001 = new Order()
             {
                 GroceriesItems = "Continence pad, jam, toast and chicken",
@@ -41,7 +42,7 @@ namespace Community_Help_App
         {
             //Set tooltip visibility
 
-            if(Toggle_btn.IsChecked == true)
+            if (Toggle_btn.IsChecked == true)
 
             {
                 tt_home.Visibility = Visibility.Collapsed;
@@ -84,45 +85,13 @@ namespace Community_Help_App
             Close();
         }
 
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        private void Close()
         {
-
+            throw new NotImplementedException();
         }
 
-
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
-            string User = textBox1.Text;
-            string pass = textBox2.Text;
-
-            if (User == "admin" && pass == "admin")
-            {
-                mainhomepage.Visibility = Visibility.Visible;
-            }
-            else if (User == "manager" && pass == "manager")
-            {
-                mainhomepage.Visibility = Visibility.Visible;
-            }
-            else if (User == "volunteer" && pass == "volunteer")
-            {
-                mainhomepage.Visibility = Visibility.Visible;
-            }
-            else if (User == "client" && pass == "client")
-            {
-                mainhomepage.Visibility = Visibility.Visible;
-            }
-            else if (User == "" && pass == "")
-            {
-                label3.Content = "Username or Password cannot be Empty";
-
-            }
-            else
-            {
-                label3.Content = "Incorrect Username or Password";
-            }
-
-            textBox1.Text = "";
-            textBox2.Text = "";
 
         }
     }

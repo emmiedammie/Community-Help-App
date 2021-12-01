@@ -166,8 +166,12 @@
 
 
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
         <!-- Background colour-->
-        <Grid Background="Black">
+        <Grid Background="Black" Grid.ColumnSpan="2">
 
             <!--Background Image-->
 
@@ -188,12 +192,12 @@
                     </Grid.ColumnDefinitions>
                 </Grid>
                 <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="488" Margin="102,59,0,0" VerticalAlignment="Top" Width="602"/>
-                <Button Content="Place Order" HorizontalAlignment="Left" Margin="122,112,0,0" VerticalAlignment="Top" Width="143" Height="120" FontSize="18"/>
-                <Button Content="Register" HorizontalAlignment="Left" Margin="122,348,0,0" VerticalAlignment="Top" Width="143" Height="120" FontSize="18"/>
-                <Button Content="Orders" HorizontalAlignment="Left" Margin="332,112,0,0" VerticalAlignment="Top" Width="143" Height="120" FontSize="18"/>
-                <Button Content="Deliveries" HorizontalAlignment="Left" Margin="332,348,0,0" VerticalAlignment="Top" Width="143" Height="120" FontSize="18"/>
-                <Button Content="Match Orders" HorizontalAlignment="Left" Margin="538,112,0,0" VerticalAlignment="Top" Width="143" Height="120" FontSize="18"/>
-                <Button Content="Reconcile&#xD;&#xA;payment" HorizontalAlignment="Left" Margin="538,348,0,0" VerticalAlignment="Top" Width="143" Height="120" FontSize="18"/>
+                <Button x:Name="btn_place_order" Content="Place Order" HorizontalAlignment="Left" Margin="122,112,0,0" VerticalAlignment="Top" Width="143" Height="120" FontSize="18"/>
+                <Button x:Name="btn_register" Content="Register" HorizontalAlignment="Left" Margin="122,348,0,0" VerticalAlignment="Top" Width="143" Height="120" FontSize="18"/>
+                <Button x:Name="btn_order" Content="Order" HorizontalAlignment="Left" Margin="332,112,0,0" VerticalAlignment="Top" Width="143" Height="120" FontSize="18"/>
+                <Button x:Name="btn_delivery" Content="Delivery" HorizontalAlignment="Left" Margin="332,348,0,0" VerticalAlignment="Top" Width="143" Height="120" FontSize="18"/>
+                <Button x:Name="btn_match_orders" Content="Match Orders" HorizontalAlignment="Left" Margin="538,112,0,0" VerticalAlignment="Top" Width="143" Height="120" FontSize="18"/>
+                <Button x:Name="btn_reconcile_payment" Content="Reconcile&#xD;&#xA;payment" HorizontalAlignment="Left" Margin="538,348,0,0" VerticalAlignment="Top" Width="143" Height="120" FontSize="18"/>
 
             </Grid>
 

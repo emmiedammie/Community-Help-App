@@ -15,3 +15,8 @@ C:\Users\user\source\repos\Community-Help-App\Community-Help-App\obj\Debug\mainw
 C:\Users\user\source\repos\Community-Help-App\Community-Help-App\obj\Debug\mainwindow.baml
 C:\Users\user\source\repos\Community-Help-App\Community-Help-App\obj\Debug\homepage.g.cs
 C:\Users\user\source\repos\Community-Help-App\Community-Help-App\obj\Debug\homepage.baml
+C:\Users\user\source\repos\Community-Help-App\Community-Help-App\obj\Debug\Register.g.cs
+C:\Users\user\source\repos\Community-Help-App\Community-Help-App\obj\Debug\Register.baml
+C:\Users\user\source\repos\Community-Help-App\Community-Help-App\obj\Debug\mainhomepage.g.cs
+C:\Users\user\source\repos\Community-Help-App\Community-Help-App\obj\Debug\mainhomepage.baml
+C:\Users\user\source\repos\Community-Help-App\Community-Help-App\obj\Debug\GeneratedInternalTypeHelper.g.cs
