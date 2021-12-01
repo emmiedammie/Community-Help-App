@@ -70,7 +70,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="homepage.xaml.cs">
+      <DependentUpon>homepage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Volunteer.cs" />
+    <Page Include="homepage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="mainwindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

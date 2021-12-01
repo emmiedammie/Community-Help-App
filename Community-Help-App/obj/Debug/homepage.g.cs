@@ -57,7 +57,7 @@ namespace Community_Help_App {
         #line hidden
         
         
-        #line 215 "..\..\homepage.xaml"
+        #line 216 "..\..\homepage.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button CloseBtn;
         
@@ -65,7 +65,7 @@ namespace Community_Help_App {
         #line hidden
         
         
-        #line 235 "..\..\homepage.xaml"
+        #line 236 "..\..\homepage.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Grid nav_panel;
         
@@ -73,7 +73,7 @@ namespace Community_Help_App {
         #line hidden
         
         
-        #line 240 "..\..\homepage.xaml"
+        #line 241 "..\..\homepage.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.StackPanel Stack_Panel;
         
@@ -81,7 +81,7 @@ namespace Community_Help_App {
         #line hidden
         
         
-        #line 274 "..\..\homepage.xaml"
+        #line 275 "..\..\homepage.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Primitives.ToggleButton Toggle_btn;
         
@@ -89,7 +89,7 @@ namespace Community_Help_App {
         #line hidden
         
         
-        #line 301 "..\..\homepage.xaml"
+        #line 302 "..\..\homepage.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Media.Animation.Storyboard HideStackPanel;
         
@@ -97,7 +97,7 @@ namespace Community_Help_App {
         #line hidden
         
         
-        #line 329 "..\..\homepage.xaml"
+        #line 330 "..\..\homepage.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Media.Animation.Storyboard ShowstackPanel;
         
@@ -105,7 +105,7 @@ namespace Community_Help_App {
         #line hidden
         
         
-        #line 387 "..\..\homepage.xaml"
+        #line 388 "..\..\homepage.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.ToolTip tt_home;
         
@@ -113,7 +113,7 @@ namespace Community_Help_App {
         #line hidden
         
         
-        #line 420 "..\..\homepage.xaml"
+        #line 421 "..\..\homepage.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.ToolTip tt_contact;
         
@@ -121,7 +121,7 @@ namespace Community_Help_App {
         #line hidden
         
         
-        #line 454 "..\..\homepage.xaml"
+        #line 455 "..\..\homepage.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.ToolTip tt_message;
         
@@ -129,7 +129,7 @@ namespace Community_Help_App {
         #line hidden
         
         
-        #line 487 "..\..\homepage.xaml"
+        #line 488 "..\..\homepage.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.ToolTip tt_map;
         
@@ -137,7 +137,7 @@ namespace Community_Help_App {
         #line hidden
         
         
-        #line 519 "..\..\homepage.xaml"
+        #line 520 "..\..\homepage.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.ToolTip tt_setting;
         
@@ -145,7 +145,7 @@ namespace Community_Help_App {
         #line hidden
         
         
-        #line 551 "..\..\homepage.xaml"
+        #line 552 "..\..\homepage.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.ToolTip tt_signout;
         
@@ -195,105 +195,121 @@ namespace Community_Help_App {
             this.img_bg = ((System.Windows.Media.ImageBrush)(target));
             return;
             case 3:
-            this.CloseBtn = ((System.Windows.Controls.Button)(target));
             
-            #line 221 "..\..\homepage.xaml"
-            this.CloseBtn.Click += new System.Windows.RoutedEventHandler(this.CloseBtn_Click);
+            #line 194 "..\..\homepage.xaml"
+            ((System.Windows.Controls.TextBox)(target)).TextChanged += new System.Windows.Controls.TextChangedEventHandler(this.TextBox_TextChanged);
             
             #line default
             #line hidden
             return;
             case 4:
-            this.nav_panel = ((System.Windows.Controls.Grid)(target));
+            
+            #line 195 "..\..\homepage.xaml"
+            ((System.Windows.Controls.TextBox)(target)).TextChanged += new System.Windows.Controls.TextChangedEventHandler(this.TextBox_TextChanged);
+            
+            #line default
+            #line hidden
             return;
             case 5:
-            this.Stack_Panel = ((System.Windows.Controls.StackPanel)(target));
+            this.CloseBtn = ((System.Windows.Controls.Button)(target));
+            
+            #line 222 "..\..\homepage.xaml"
+            this.CloseBtn.Click += new System.Windows.RoutedEventHandler(this.CloseBtn_Click);
+            
+            #line default
+            #line hidden
             return;
             case 6:
+            this.nav_panel = ((System.Windows.Controls.Grid)(target));
+            return;
+            case 7:
+            this.Stack_Panel = ((System.Windows.Controls.StackPanel)(target));
+            return;
+            case 8:
             this.Toggle_btn = ((System.Windows.Controls.Primitives.ToggleButton)(target));
             
-            #line 282 "..\..\homepage.xaml"
+            #line 283 "..\..\homepage.xaml"
             this.Toggle_btn.Unchecked += new System.Windows.RoutedEventHandler(this.Toggle_tn_Unchecked);
             
             #line default
             #line hidden
             
-            #line 282 "..\..\homepage.xaml"
+            #line 283 "..\..\homepage.xaml"
             this.Toggle_btn.Checked += new System.Windows.RoutedEventHandler(this.Toggle_button_Checked);
             
             #line default
             #line hidden
             return;
-            case 7:
+            case 9:
             this.HideStackPanel = ((System.Windows.Media.Animation.Storyboard)(target));
             return;
-            case 8:
-            this.ShowstackPanel = ((System.Windows.Media.Animation.Storyboard)(target));
-            return;
-            case 9:
-            
-            #line 366 "..\..\homepage.xaml"
-            ((System.Windows.Controls.ListViewItem)(target)).MouseEnter += new System.Windows.Input.MouseEventHandler(this.ListViewItem_MouseEnter);
-            
-            #line default
-            #line hidden
-            return;
             case 10:
-            this.tt_home = ((System.Windows.Controls.ToolTip)(target));
+            this.ShowstackPanel = ((System.Windows.Media.Animation.Storyboard)(target));
             return;
             case 11:
             
-            #line 399 "..\..\homepage.xaml"
+            #line 367 "..\..\homepage.xaml"
             ((System.Windows.Controls.ListViewItem)(target)).MouseEnter += new System.Windows.Input.MouseEventHandler(this.ListViewItem_MouseEnter);
             
             #line default
             #line hidden
             return;
             case 12:
-            this.tt_contact = ((System.Windows.Controls.ToolTip)(target));
+            this.tt_home = ((System.Windows.Controls.ToolTip)(target));
             return;
             case 13:
             
-            #line 433 "..\..\homepage.xaml"
+            #line 400 "..\..\homepage.xaml"
             ((System.Windows.Controls.ListViewItem)(target)).MouseEnter += new System.Windows.Input.MouseEventHandler(this.ListViewItem_MouseEnter);
             
             #line default
             #line hidden
             return;
             case 14:
-            this.tt_message = ((System.Windows.Controls.ToolTip)(target));
+            this.tt_contact = ((System.Windows.Controls.ToolTip)(target));
             return;
             case 15:
             
-            #line 466 "..\..\homepage.xaml"
+            #line 434 "..\..\homepage.xaml"
             ((System.Windows.Controls.ListViewItem)(target)).MouseEnter += new System.Windows.Input.MouseEventHandler(this.ListViewItem_MouseEnter);
             
             #line default
             #line hidden
             return;
             case 16:
-            this.tt_map = ((System.Windows.Controls.ToolTip)(target));
+            this.tt_message = ((System.Windows.Controls.ToolTip)(target));
             return;
             case 17:
             
-            #line 498 "..\..\homepage.xaml"
+            #line 467 "..\..\homepage.xaml"
             ((System.Windows.Controls.ListViewItem)(target)).MouseEnter += new System.Windows.Input.MouseEventHandler(this.ListViewItem_MouseEnter);
             
             #line default
             #line hidden
             return;
             case 18:
-            this.tt_setting = ((System.Windows.Controls.ToolTip)(target));
+            this.tt_map = ((System.Windows.Controls.ToolTip)(target));
             return;
             case 19:
             
-            #line 530 "..\..\homepage.xaml"
+            #line 499 "..\..\homepage.xaml"
             ((System.Windows.Controls.ListViewItem)(target)).MouseEnter += new System.Windows.Input.MouseEventHandler(this.ListViewItem_MouseEnter);
             
             #line default
             #line hidden
             return;
             case 20:
+            this.tt_setting = ((System.Windows.Controls.ToolTip)(target));
+            return;
+            case 21:
+            
+            #line 531 "..\..\homepage.xaml"
+            ((System.Windows.Controls.ListViewItem)(target)).MouseEnter += new System.Windows.Input.MouseEventHandler(this.ListViewItem_MouseEnter);
+            
+            #line default
+            #line hidden
+            return;
+            case 22:
             this.tt_signout = ((System.Windows.Controls.ToolTip)(target));
             return;
             }

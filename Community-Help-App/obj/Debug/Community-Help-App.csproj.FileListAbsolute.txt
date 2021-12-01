@@ -13,3 +13,5 @@ C:\Users\user\source\repos\Community-Help-App\Community-Help-App\obj\Debug\Commu
 C:\Users\user\source\repos\Community-Help-App\Community-Help-App\obj\Debug\Community-Help-App.pdb
 C:\Users\user\source\repos\Community-Help-App\Community-Help-App\obj\Debug\mainwindow.g.cs
 C:\Users\user\source\repos\Community-Help-App\Community-Help-App\obj\Debug\mainwindow.baml
+C:\Users\user\source\repos\Community-Help-App\Community-Help-App\obj\Debug\homepage.g.cs
+C:\Users\user\source\repos\Community-Help-App\Community-Help-App\obj\Debug\homepage.baml
