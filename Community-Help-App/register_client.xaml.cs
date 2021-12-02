@@ -16,26 +16,13 @@ using System.Windows.Shapes;
 namespace Community_Help_App
 {
     /// <summary>
-    /// Interaction logic for mainhomepage.xaml
+    /// Interaction logic for register_volunteer.xaml
     /// </summary>
-    public partial class mainhomepage : UserControl
+    public partial class Register_client : UserControl
     {
-        public bool Visible { get; internal set; }
-
-        public mainhomepage()
+        public Register_client()
         {
             InitializeComponent();
-            Order order001 = new Order()
-            {
-                GroceriesItems = "Continence pad, jam, toast and chicken",
-                StoreName = "Tesco",
-                MedicalList = "Asprin",
-                DeliveryDate = "12/02/2021",
-                TotalOrderAmount = "£200"
-
-
-
-            };
         }
 
         private void ListViewItem_MouseEnter(object sender, MouseEventArgs e)
@@ -94,25 +81,12 @@ namespace Community_Help_App
         {
 
         }
-
-        private void btn_place_order_Click(object sender, RoutedEventArgs e)
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
-            placeorder.Visibility = Visibility.Visible;
+
         }
 
-        private void btn_register_Click(object sender, RoutedEventArgs e)
-        {
-            register_volunteer.Visibility = Visibility.Visible;
-        }
-
-        private void btn_order_Click(object sender, RoutedEventArgs e)
-        {
-            orders.Visibility = Visibility.Visible;
-        }
-
-        private void btn_match_orders_Click(object sender, RoutedEventArgs e)
-        {
-            matchorders.Visibility = Visibility.Visible;
-        }
     }
 }
+    
+

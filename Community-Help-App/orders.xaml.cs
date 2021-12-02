@@ -16,14 +16,15 @@ using System.Windows.Shapes;
 namespace Community_Help_App
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for mainhomepage.xaml
     /// </summary>
-    public partial class Register : Window
+    public partial class orders : UserControl
     {
-        public Register()
+        public bool Visible { get; internal set; }
+
+        public orders()
         {
             InitializeComponent();
-
             Order order001 = new Order()
             {
                 GroceriesItems = "Continence pad, jam, toast and chicken",
@@ -41,7 +42,7 @@ namespace Community_Help_App
         {
             //Set tooltip visibility
 
-            if(Toggle_btn.IsChecked == true)
+            if (Toggle_btn.IsChecked == true)
 
             {
                 tt_home.Visibility = Visibility.Collapsed;
@@ -84,14 +85,37 @@ namespace Community_Help_App
             Close();
         }
 
+        private void Close()
+        {
+            throw new NotImplementedException();
+        }
+
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
 
         }
 
-        private void ComboBoxItem_Selected(object sender, RoutedEventArgs e)
+        private void btn_place_order_Click(object sender, RoutedEventArgs e)
+        {
+        }
+
+        private void btn_register_Click(object sender, RoutedEventArgs e)
+        {
+            
+        }
+
+        private void TextBox_TextChanged_1(object sender, TextChangedEventArgs e)
         {
 
         }
+
+        private void RichTextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void DataGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+                    }
     }
 }

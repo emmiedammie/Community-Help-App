@@ -74,27 +74,47 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="homepage.xaml.cs">
-      <DependentUpon>homepage.xaml</DependentUpon>
+    <Compile Include="matchorders.xaml.cs">
+      <DependentUpon>matchorders.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="delivery.xaml.cs">
+      <DependentUpon>delivery.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="orders.xaml.cs">
+      <DependentUpon>orders.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="placeorder.xaml.cs">
+      <DependentUpon>placeorder.xaml</DependentUpon>
     </Compile>
     <Compile Include="mainhomepage.xaml.cs">
       <DependentUpon>mainhomepage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Register.xaml.cs">
-      <DependentUpon>Register.xaml</DependentUpon>
+    <Compile Include="register_client.xaml.cs">
+      <DependentUpon>register_client.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="register_volunteer.xaml.cs">
+      <DependentUpon>register_volunteer.xaml</DependentUpon>
     </Compile>
     <Compile Include="Volunteer.cs" />
-    <Page Include="homepage.xaml">
+    <Page Include="matchorders.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="delivery.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="orders.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="placeorder.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
     <Page Include="mainhomepage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Register.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
     </Page>
     <Page Include="mainwindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -110,6 +130,14 @@
       <DependentUpon>mainwindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="register_client.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="register_volunteer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Order.cs" />
@@ -176,6 +204,15 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\closeBtn_MouseOver.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="map.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\street map.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="street map.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

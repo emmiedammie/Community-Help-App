@@ -18,11 +18,11 @@ namespace Community_Help_App
     /// <summary>
     /// Interaction logic for mainhomepage.xaml
     /// </summary>
-    public partial class mainhomepage : UserControl
+    public partial class delivery : UserControl
     {
         public bool Visible { get; internal set; }
 
-        public mainhomepage()
+        public delivery()
         {
             InitializeComponent();
             Order order001 = new Order()
@@ -97,22 +97,25 @@ namespace Community_Help_App
 
         private void btn_place_order_Click(object sender, RoutedEventArgs e)
         {
-            placeorder.Visibility = Visibility.Visible;
         }
 
         private void btn_register_Click(object sender, RoutedEventArgs e)
         {
-            register_volunteer.Visibility = Visibility.Visible;
+            
         }
 
-        private void btn_order_Click(object sender, RoutedEventArgs e)
+        private void TextBox_TextChanged_1(object sender, TextChangedEventArgs e)
         {
-            orders.Visibility = Visibility.Visible;
+
         }
 
-        private void btn_match_orders_Click(object sender, RoutedEventArgs e)
+        private void RichTextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
-            matchorders.Visibility = Visibility.Visible;
+
         }
+
+        private void DataGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+                    }
     }
 }

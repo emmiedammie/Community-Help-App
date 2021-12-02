@@ -1,4 +1,4 @@
-﻿<UserControl x:Class="Community_Help_App.mainhomepage"
+﻿<UserControl x:Class="Community_Help_App.matchorders"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -178,17 +178,37 @@
                         <ColumnDefinition Width="33*"/>
                     </Grid.ColumnDefinitions>
                 </Grid>
-                <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="488" Margin="102,59,0,0" VerticalAlignment="Top" Width="602"/>
-                <Button x:Name="btn_place_order" Content="Place Order" HorizontalAlignment="Left" Margin="122,112,0,0" VerticalAlignment="Top" Width="143" Height="120" FontSize="18" Click="btn_place_order_Click"/>
-                <Button x:Name="btn_register" Content="Register" HorizontalAlignment="Left" Margin="122,348,0,0" VerticalAlignment="Top" Width="143" Height="120" FontSize="18" Click="btn_register_Click"/>
-                <Button x:Name="btn_order" Content="Order" HorizontalAlignment="Left" Margin="332,112,0,0" VerticalAlignment="Top" Width="143" Height="120" FontSize="18" Click="btn_order_Click"/>
-                <Button x:Name="btn_delivery" Content="Delivery" HorizontalAlignment="Left" Margin="332,348,0,0" VerticalAlignment="Top" Width="143" Height="120" FontSize="18"/>
-                <Button x:Name="btn_match_orders" Content="Match Orders" HorizontalAlignment="Left" Margin="538,112,0,0" VerticalAlignment="Top" Width="143" Height="120" FontSize="18" Click="btn_match_orders_Click"/>
-                <Button x:Name="btn_reconcile_payment" Content="Reconcile&#xD;&#xA;payment" HorizontalAlignment="Left" Margin="538,348,0,0" VerticalAlignment="Top" Width="143" Height="120" FontSize="18"/>
                 <local:register_volunteer x:Name="register_volunteer" HorizontalAlignment="Left" Height="602" Margin="-3,0,0,0" VerticalAlignment="Top" Width="793" Visibility="Hidden"/>
-                <local:placeorder x:Name="placeorder" HorizontalAlignment="Left" Height="586" Margin="-3,0,0,0" VerticalAlignment="Top" Width="793" Visibility="Hidden"/>
-                <local:orders x:Name="orders" HorizontalAlignment="Left" Height="638" Margin="-3,0,0,0" VerticalAlignment="Top" Width="793" Visibility="Hidden"/>
-                <local:matchorders x:Name="matchorders" HorizontalAlignment="Left" Height="602" Margin="-16,0,0,0" VerticalAlignment="Top" Width="806" Visibility="Hidden"/>
+                <TextBlock HorizontalAlignment="Left" Margin="102,72,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" Text="You can match the orders to a volunteer below"/>
+                <Button Content="Mach Order" HorizontalAlignment="Left" Margin="507,526,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-0.907,1.2" Height="41"/>
+                <Button Content="Cancel" HorizontalAlignment="Left" Margin="629,526,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-0.907,1.2" Height="41"/>
+                <ListBox HorizontalAlignment="Left" Height="100" Margin="250,131,0,0" VerticalAlignment="Top" Width="100" SelectionChanged="ListBox_SelectionChanged">
+                    <ComboBoxItem Content="order 001"/>
+                    <ComboBoxItem Content="order 002"/>
+                    <ComboBoxItem Content="order 003"/>
+                    <ComboBoxItem Content="order 004"/>
+                    <ComboBoxItem Content="order 005"/>
+                    <ComboBoxItem Content="order 006"/>
+                    <ComboBoxItem Content="order 007"/>
+                </ListBox>
+                <TextBlock HorizontalAlignment="Left" Margin="116,127,0,0" TextWrapping="Wrap" Text="Orders" VerticalAlignment="Top" FontSize="16" Width="60" FontWeight="Bold" RenderTransformOrigin="0.625,3.195"/>
+                <TextBlock HorizontalAlignment="Left" Margin="116,261,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16" Width="95" FontWeight="Bold" Height="33"><Run Text="Client"/><Run Text=" Name"/></TextBlock>
+                <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="33" Margin="248,261,0,0" Stroke="Black" VerticalAlignment="Top" Width="212"/>
+                <TextBlock HorizontalAlignment="Left" Margin="116,314,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16" Width="113" FontWeight="Bold" Height="32"><Run Text="Client"/><Run Text=" "/><Run Text="Address"/></TextBlock>
+                <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="32" Margin="247,314,0,0" Stroke="Black" VerticalAlignment="Top" Width="213"/>
+                <ListBox HorizontalAlignment="Left" Height="100" Margin="243,421,0,0" VerticalAlignment="Top" Width="100" SelectionChanged="ListBox_SelectionChanged">
+                    <ComboBoxItem Content="Volunteer 1"/>
+                    <ComboBoxItem Content="Volunteer 2"/>
+                    <ComboBoxItem Content="Volunteer 3"/>
+                    <ComboBoxItem Content="Volunteer 4"/>
+                    <ComboBoxItem Content="Volunteer 5"/>
+                    <ComboBoxItem Content="Volunteer 6"/>
+                    <ComboBoxItem Content="Volunteer 7"/>
+                </ListBox>
+                <TextBlock HorizontalAlignment="Left" Margin="116,421,0,0" TextWrapping="Wrap" Text="Volunteers" VerticalAlignment="Top" FontSize="16" Width="95" FontWeight="Bold" RenderTransformOrigin="0.625,3.195"/>
+                <TextBlock HorizontalAlignment="Left" Margin="116,372,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16" Width="127" FontWeight="Bold" Height="32" Text="Date for delivery"/>
+                <DatePicker HorizontalAlignment="Left" Margin="248,372,0,0" VerticalAlignment="Top"/>
+                <Image HorizontalAlignment="Left" Height="184" Margin="491,220,0,0" VerticalAlignment="Top" Width="252" Source="street map.jpg"/>
 
             </Grid>
 

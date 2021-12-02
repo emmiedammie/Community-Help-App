@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/icons8-power-off-button-480.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("street%20map.jpg")]
 
 
