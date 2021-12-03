@@ -74,6 +74,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Administrator.cs" />
     <Compile Include="matchorders.xaml.cs">
       <DependentUpon>matchorders.xaml</DependentUpon>
     </Compile>
@@ -91,6 +92,9 @@
     </Compile>
     <Compile Include="register_client.xaml.cs">
       <DependentUpon>register_client.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="reconcile_payment.xaml.cs">
+      <DependentUpon>reconcile_payment.xaml</DependentUpon>
     </Compile>
     <Compile Include="register_volunteer.xaml.cs">
       <DependentUpon>register_volunteer.xaml</DependentUpon>
@@ -131,6 +135,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="register_client.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="reconcile_payment.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

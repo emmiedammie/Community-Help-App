@@ -28,3 +28,5 @@ C:\Users\user\source\repos\Community-Help-App\Community-Help-App\obj\Debug\match
 C:\Users\user\source\repos\Community-Help-App\Community-Help-App\obj\Debug\delivery.g.cs
 C:\Users\user\source\repos\Community-Help-App\Community-Help-App\obj\Debug\matchorders.baml
 C:\Users\user\source\repos\Community-Help-App\Community-Help-App\obj\Debug\delivery.baml
+C:\Users\user\source\repos\Community-Help-App\Community-Help-App\obj\Debug\reconcile_payment.g.cs
+C:\Users\user\source\repos\Community-Help-App\Community-Help-App\obj\Debug\reconcile_payment.baml
