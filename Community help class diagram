@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2021-12-01T21:34:15.028Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="p0Thx2nvO2-gYbiscXjE" version="15.8.3" type="github">
-  <diagram id="9Keq-DsfMNbV4So3xQCW" name="Page-1">
+<mxfile host="app.diagrams.net" modified="2021-12-03T06:19:23.553Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="grSqZZD4pfsAUOJl2LpW" version="15.8.3" type="github" pages="2">
+  <diagram id="9Keq-DsfMNbV4So3xQCW" name="Class diagram">
     <mxGraphModel dx="946" dy="411" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -24,6 +24,47 @@
         </mxCell>
         <mxCell id="1n4loHIuKYqHqELoXAnZ-1" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;ReconcileDelivery&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;receiptScan&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;deliveryAmount&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;recordAmount()&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;payVolunteer()&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
           <mxGeometry x="110" y="620" width="200" height="180" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="xXlBoJufziq5W28xA8mj" name="Mis Use case">
+    <mxGraphModel dx="946" dy="411" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="OYGbRYghiIenH-y9s2Ts-0" />
+        <mxCell id="OYGbRYghiIenH-y9s2Ts-1" parent="OYGbRYghiIenH-y9s2Ts-0" />
+        <mxCell id="PfcO52MWC2NNq6-9yVXT-0" value="Groceries Delivery Mis Use Case" style="shape=umlFrame;whiteSpace=wrap;html=1;width=180;height=30;" vertex="1" parent="OYGbRYghiIenH-y9s2Ts-1">
+          <mxGeometry x="180" y="40" width="500" height="970" as="geometry" />
+        </mxCell>
+        <mxCell id="PfcO52MWC2NNq6-9yVXT-1" value="Volunteer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="OYGbRYghiIenH-y9s2Ts-1">
+          <mxGeometry x="120" y="280" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PfcO52MWC2NNq6-9yVXT-2" value="Administrator" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="OYGbRYghiIenH-y9s2Ts-1">
+          <mxGeometry x="120" y="110" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PfcO52MWC2NNq6-9yVXT-3" value="Client" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="OYGbRYghiIenH-y9s2Ts-1">
+          <mxGeometry x="120" y="420" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PfcO52MWC2NNq6-9yVXT-4" value="Manager" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="OYGbRYghiIenH-y9s2Ts-1">
+          <mxGeometry x="120" y="610" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PfcO52MWC2NNq6-9yVXT-7" value="Sign In" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="OYGbRYghiIenH-y9s2Ts-1">
+          <mxGeometry x="260" y="390" width="140" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="PfcO52MWC2NNq6-9yVXT-8" value="Register" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="OYGbRYghiIenH-y9s2Ts-1">
+          <mxGeometry x="260" y="500" width="140" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="PfcO52MWC2NNq6-9yVXT-9" value="Place Order" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="OYGbRYghiIenH-y9s2Ts-1">
+          <mxGeometry x="260" y="620" width="140" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="PfcO52MWC2NNq6-9yVXT-10" value="View and verify Orders" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="OYGbRYghiIenH-y9s2Ts-1">
+          <mxGeometry x="260" y="120" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PfcO52MWC2NNq6-9yVXT-11" value="View and verify deliveries" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="OYGbRYghiIenH-y9s2Ts-1">
+          <mxGeometry x="260" y="220" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PfcO52MWC2NNq6-9yVXT-12" value="Match volunteers to client deliveries" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="OYGbRYghiIenH-y9s2Ts-1">
+          <mxGeometry x="260" y="310" width="140" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
