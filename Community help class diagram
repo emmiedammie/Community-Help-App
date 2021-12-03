@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-03T06:28:35.648Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="tVJyx49XCOwS7FG6-5yu" version="15.8.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-12-03T06:31:38.168Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="GxhLM1DPsq3cSy8--d81" version="15.8.3" type="github" pages="2">
   <diagram id="9Keq-DsfMNbV4So3xQCW" name="Class diagram">
     <mxGraphModel dx="946" dy="411" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -179,6 +179,36 @@
             <mxPoint x="145" y="150" as="sourcePoint" />
             <mxPoint x="270" y="1011.5" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="PfcO52MWC2NNq6-9yVXT-36" value="extends" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="OYGbRYghiIenH-y9s2Ts-1" source="PfcO52MWC2NNq6-9yVXT-35" target="PfcO52MWC2NNq6-9yVXT-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="472" />
+              <mxPoint x="390" y="520" />
+              <mxPoint x="381" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PfcO52MWC2NNq6-9yVXT-38" value="mitigates" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="OYGbRYghiIenH-y9s2Ts-1" source="PfcO52MWC2NNq6-9yVXT-35" target="PfcO52MWC2NNq6-9yVXT-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PfcO52MWC2NNq6-9yVXT-35" value="Block repeated registrations" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="OYGbRYghiIenH-y9s2Ts-1">
+          <mxGeometry x="410" y="440" width="140" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="PfcO52MWC2NNq6-9yVXT-37" value="Flood system" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="OYGbRYghiIenH-y9s2Ts-1">
+          <mxGeometry x="520" y="500" width="140" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="PfcO52MWC2NNq6-9yVXT-39" value="Attacker" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="OYGbRYghiIenH-y9s2Ts-1">
+          <mxGeometry x="740" y="360" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PfcO52MWC2NNq6-9yVXT-40" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="OYGbRYghiIenH-y9s2Ts-1" source="PfcO52MWC2NNq6-9yVXT-37" target="PfcO52MWC2NNq6-9yVXT-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="610" as="sourcePoint" />
+            <mxPoint x="726" y="391.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PfcO52MWC2NNq6-9yVXT-41" value="Encrypt Message" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="OYGbRYghiIenH-y9s2Ts-1">
+          <mxGeometry x="420" y="660" width="140" height="63" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
